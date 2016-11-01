@@ -1,0 +1,8 @@
+{
+  "name": "locator",
+  "description": "CRUD for geolocation database",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::841981554763:role/locator_lambda_function",
+  "environment": {}
+}
