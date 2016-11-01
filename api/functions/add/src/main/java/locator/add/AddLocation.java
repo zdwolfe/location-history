@@ -24,18 +24,18 @@ public class AddLocation {
     }
 
     public static class AddLocationResponse {
-        String hello;
+        String goodbye;
 
-        public String getHello() {
-            return hello;
+        public String getGoodbye() {
+            return goodbye;
         }
 
-        public void setHello(String hello) {
-            this.hello = hello;
+        public void setGoodbye(String goodbye) {
+            this.goodbye = goodbye;
         }
 
-        public AddLocationResponse(String hello) {
-            this.hello = hello;
+        public AddLocationResponse(String goodbye) {
+            this.goodbye = goodbye;
         }
 
         public AddLocationResponse() {
@@ -43,6 +43,8 @@ public class AddLocation {
     }
 
     public AddLocationResponse handler(AddLocationRequest event, Context context) {
-        return new AddLocationResponse("hello");
+        AddLocationResponse response = new AddLocationResponse();
+        response.setGoodbye("Cya");
+        return response;
     }
 }
