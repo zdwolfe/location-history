@@ -2,19 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!--
-        @TODO - update this.
-        Generic values
-    -->
     <groupId>plugin-result</groupId>
-    <artifactId>locator.add</artifactId>
+    <artifactId>run.apex</artifactId>
     <packaging>jar</packaging>
     <version>apex</version>
     <name>apex-plugin-result</name>
 
     <properties>
-        <!-- This prop is set when apex mvn package -->
-        <jar.finalName>add-location</jar.finalName>
+        <jar.finalName>apex</jar.finalName>
     </properties>
 
     <dependencies>
