@@ -43,6 +43,6 @@ public class AddLocation {
     }
 
     public AddLocationResponse handler(AddLocationRequest event, Context context) {
-        return new AddLocationResponse(event.getHello());
+        return new AddLocationResponse("hello");
     }
 }
